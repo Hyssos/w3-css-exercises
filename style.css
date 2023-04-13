@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-size: inherit;
+  font-weight: normal;
+
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(159, 155, 155);
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.modal {
+  padding: 12px;
+  background-color: white;
+  width: 500px;
+  border-radius: 10px;
+
+  display: flex;
+  gap: 12px;
+  
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: lavender;
+  color: royalblue;
+  font-size: 25px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  
+
+}
+.header {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close-button {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: rgb(201, 201, 208);
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.continue {
+  border: none;
+  background-color: royalblue;
+  color: white;
+}
+
+.cancel {
+  background-color: white;
+  color: royalblue;
+  border: 1px solid rgb(207, 204, 204);
+}
